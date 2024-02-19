@@ -14,11 +14,11 @@ const PORT = 5000;
 app.use(cors());
 
 //Iniating DB Connection
-connectToDB()
+connectToDB();
 
 // Use the defined router for all routes
-app.use('/', AppRouter)
+app.use('/', AppRouter);
 
 app.listen(process.env.PORT,"0.0.0.0", () => {
     console.log(`Server started at sucssesfully:${PORT}`)
-})
+});

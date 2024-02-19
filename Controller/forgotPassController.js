@@ -59,4 +59,4 @@ const initiatePasswordReset = async (req, res) => {
 
 module.exports = {
   initiatePasswordReset,
-};
+};;

@@ -22,4 +22,4 @@ const connectToDB = async () => {
 
 module.exports = {
     connectToDB,
-};
+};;
